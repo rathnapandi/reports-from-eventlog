@@ -1,0 +1,73 @@
+{
+  "type": "transaction",
+  "time": 1703140389761,
+  "path": "/api/v3/store/inventory",
+  "protocol": "https",
+  "protocolSrc": "8065",
+  "duration": 466,
+  "status": "success",
+  "serviceContexts": [
+    {
+      "service": "petstore",
+      "monitor": true,
+      "client": "Pass Through",
+      "org": null,
+      "app": null,
+      "method": "getInventory",
+      "status": "success",
+      "duration": 410
+    }
+  ],
+  "customMsgAtts": {},
+  "correlationId": "25dc8365a30b1ba30aad8ea3",
+  "legs": [
+    {
+      "uri": "/api/v3/store/inventory",
+      "status": 200,
+      "statustext": "OK",
+      "method": "GET",
+      "vhost": null,
+      "wafStatus": 0,
+      "bytesSent": 482,
+      "bytesReceived": 624,
+      "remoteName": "10.129.216.251",
+      "remoteAddr": "10.129.216.251",
+      "localAddr": "10.129.61.129",
+      "remotePort": "64016",
+      "localPort": "8065",
+      "sslsubject": null,
+      "leg": 0,
+      "timestamp": 1703140389295,
+      "duration": 466,
+      "serviceName": "petstore",
+      "subject": "Pass Through",
+      "operation": "getInventory",
+      "type": "http",
+      "finalStatus": "Pass"
+    },
+    {
+      "uri": "/api/v3/store/inventory",
+      "status": 200,
+      "statustext": "OK",
+      "method": "GET",
+      "vhost": null,
+      "wafStatus": 0,
+      "bytesSent": 643,
+      "bytesReceived": 408,
+      "remoteName": "petstore3.swagger.io",
+      "remoteAddr": "54.205.122.248",
+      "localAddr": "10.129.61.129",
+      "remotePort": "443",
+      "localPort": "39658",
+      "sslsubject": "/CN=*.swagger.io",
+      "leg": 1,
+      "timestamp": 1703140389699,
+      "duration": 59,
+      "serviceName": "petstore",
+      "subject": "Pass Through",
+      "operation": "getInventory",
+      "type": "http",
+      "finalStatus": null
+    }
+  ]
+}

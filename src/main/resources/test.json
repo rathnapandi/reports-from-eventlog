@@ -1,0 +1,38 @@
+{
+  "type": "transaction",
+  "time": 1703072806069,
+  "path": "/moc/netstedtemplate10",
+  "protocol": "https",
+  "protocolSrc": "8065",
+  "duration": 1,
+  "status": "success",
+  "serviceContexts": [],
+  "customMsgAtts": {},
+  "correlationId": "26d482658f2a824d75d3a420",
+  "legs": [
+    {
+      "uri": "/moc/netstedtemplate10",
+      "status": 200,
+      "statustext": "OK",
+      "method": "GET",
+      "vhost": null,
+      "wafStatus": 0,
+      "bytesSent": 2139,
+      "bytesReceived": 740,
+      "remoteName": "217.165.233.235",
+      "remoteAddr": "217.165.233.235",
+      "localAddr": "10.2.0.4",
+      "remotePort": "59380",
+      "localPort": "8065",
+      "sslsubject": null,
+      "leg": 0,
+      "timestamp": 1703072806068,
+      "duration": 1,
+      "serviceName": null,
+      "subject": null,
+      "operation": null,
+      "type": "http",
+      "finalStatus": "Pass"
+    }
+  ]
+}
